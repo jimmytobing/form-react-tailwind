@@ -8,10 +8,7 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "start": "web-dev-server --open --node-resolve",
-    "start:watch": "web-dev-server --open --node-resolve --watch",
-    "test": "web-test-runner test/**/*.test.js --coverage --node-resolve",
-    "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
+    "start": "http-server --cors"
   },
   "dependencies": {
     "http-server": "^14.1.1"
