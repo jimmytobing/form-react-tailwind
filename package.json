@@ -1,0 +1,19 @@
+{
+  "name": "form-react-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Webcomponent lit-element following open-wc recommendations",
+  "license": "MIT",
+  "author": "my-element",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open --node-resolve",
+    "start:watch": "web-dev-server --open --node-resolve --watch",
+    "test": "web-test-runner test/**/*.test.js --coverage --node-resolve",
+    "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
